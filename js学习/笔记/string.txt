@@ -1,0 +1,18 @@
+1、字符串与数字互相转换
+	转换为数字可以用构造函数转
+	数字转字符串可以用构造函数或者toString()
+	toString（进制）
+2、
+	charAt（）返回位置的字符
+	concat（）连接字符串
+	indexOf（）查找，lastIndexOf（）
+	slice（start，end）提取一部分，可为负数
+	split(regExp或字符串[,最大长度])分割字符串
+	arrayObject.join(separator)将数组拼接成字符串
+	search（）与用RegExp的区别是search不支持全局搜索
+	replace(regExp对象或者string,一个字符串)
+
+**
+splice 绞接，连接 
+split 分开
+slice 切片

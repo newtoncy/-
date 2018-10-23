@@ -1,0 +1,11 @@
+元素.style// 取得样式，一个CSSStyleDeclaration对象
+1、用 点 可以访问各css属性
+2、其他常用属性和方法
+cssText:访问到css代码
+length：css代码数量与item配套使用
+item(index):返回指定位置的css
+removeProperty("")
+3、直接访问属性的话访问不到它继承的属性或者通过css选择器得到的属性
+需要用 window.getComputed(元素)得到计算后的style对象
+然后再访问属性
+

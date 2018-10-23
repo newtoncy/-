@@ -1,0 +1,2 @@
+1、history.go(-1)后退一页
+history.go("baidu.com")跳转到最近的百度页面

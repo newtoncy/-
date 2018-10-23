@@ -1,0 +1,3 @@
+json对象
+JSON.stringify(数组或其他什么对象）
+JSON.parse(jsontext[,function])

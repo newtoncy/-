@@ -1,0 +1,46 @@
+1、var colors = new Array();
+var colors = new Array(20);//长度为20
+var colors = [];
+
+2、colors.length//长度，可写。
+
+3、if(value instanceof Array)//检测是否为数组
+
+4、栈方法：
+push（）//加到末尾
+pop（）//弹出末尾一个
+
+5、队列方法
+push（）//加到末尾
+shift（）//弹出第一个
+unshift（）//从开头推入
+pop（）//弹出最后一个
+
+6、重排序方法
+sort（）
+sort（function）
+reverse（）
+
+7、操作方法
+concat（）接受一个数组或者值添加到末端
+splice（两个值）删除两个索引值之间的。返回删除的
+splice（三个值以上）从第几个，要删除的项数，要插入的项
+slice（start,end）截取数组一部分
+
+8、位置方法
+indexOf（v）查找v的位置
+indexOf（v,i）从i开始查找
+
+9、迭代方法
+f=function（item，index，array）{。。。}
+every（f）每一项返回true则返回true
+some（f）任一项返回true则返回true
+map（f）对每一项执行函数f返回结果数组
+foreach（f）对每一项执行函数，不返回
+
+10、reduce（f），reduceRight（f）
+f=function(prev,cur,index,array)
+prev上一个的返回值
+cur当前值
+index索引值
+array数组
